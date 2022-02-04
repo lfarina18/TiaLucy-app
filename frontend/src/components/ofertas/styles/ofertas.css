@@ -1,0 +1,43 @@
+.row {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1.5rem;
+  gap: 2rem;
+  justify-content: flex-end;
+}
+
+.card {
+  width: 100%;
+  margin: 0 auto;
+  padding: 4rem 1rem;
+  background-color: #cc0e74;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+h3 {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+p {
+  padding: 0 1rem;
+  font-size: 1.1rem;
+  line-height: 140%;
+}
+h3,
+p {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+@media (max-width: 539px) {
+  .row {
+    flex-direction: column;
+  }
+}
+.card button {
+  display: inline-block;
+}

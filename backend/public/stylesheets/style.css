@@ -1,0 +1,186 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.6rem;
+  background-color: #f7ecec;
+}
+
+.container {
+  max-width: 120rem;
+  width: 95%;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-size: 3rem;
+  text-align: center;
+  color: #b40c66;
+}
+h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+@media (max-width: 539px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+p {
+  font-size: 1.8rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  text-align: center;
+  /* background-color: #e6b2b2; */
+}
+.header .header-content {
+  padding: 1rem 0;
+}
+
+.logo {
+  font-family: 'Kaushan Script', cursive;
+  color: #cc0e74;
+  text-align: center;
+  margin: 1rem;
+}
+.logo span {
+  font-size: 2rem;
+  display: block;
+  margin-top: 0.8rem;
+}
+@media (max-width: 539px) {
+  .logo span {
+    font-size: 1.5rem;
+  }
+}
+
+.shadow-4 {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), 0 2px 2px rgba(0, 0, 0, 0.15),
+    0 4px 4px rgba(0, 0, 0, 0.15), 0 8px 8px rgba(0, 0, 0, 0.15);
+}
+
+.container-form {
+  max-width: 40rem;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.formulario {
+  font-size: 1.4rem;
+  margin: 2rem 0 0 0;
+}
+
+.formulario fieldset {
+  padding: 1rem;
+  color: #e6b2b2;
+  margin-bottom: 1rem;
+  border: 1px solid #790c5a;
+  background-color: #cc0e74;
+}
+
+.formulario input:focus {
+  outline: none;
+  border: 2px solid #790c5a;
+}
+
+label {
+  font-weight: 700;
+  text-transform: uppercase;
+  display: block;
+  padding: 0.5rem;
+}
+
+input:not([type='submit']) {
+  padding: 1rem;
+  width: 100%;
+  border: 1px solid #790c5a;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+@media (max-width: 539px) {
+  input:not([type='submit']) {
+    display: block;
+  }
+}
+
+.btn__form {
+  font-size: 13px;
+  font-weight: bold;
+  background-color: #e6b2b2;
+  color: #cc0e74;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  text-align: center;
+  display: inline-block;
+  border: none;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+.btn__form:hover {
+  color: #790c5a;
+  border: 2px solid #790c5a;
+  cursor: pointer;
+}
+
+.nav-menu {
+  max-width: 40rem;
+  width: 95%;
+  margin: 0 auto;
+  font-family: 'Kaushan Script', cursive;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-item {
+  font-size: 2rem;
+}
+@media (min-width: 540px) {
+  .nav-item {
+    margin-right: 2rem;
+  }
+  .nav-item:last-of-type {
+    margin-right: 0;
+  }
+}
+.btn__nav {
+  background-color: #e6b2b2;
+  color: #cc0e74;
+  text-decoration: none;
+  padding: 1rem;
+  text-align: center;
+  display: inline-block;
+  border: none;
+  border-radius: 0.5rem;
+}
+.btn__nav:hover {
+  background-color: #b40c66;
+  color: #e6b2b2;
+  cursor: pointer;
+}
